@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Fascinate+Inline&family=Port+Lligat+Slab&family=Snippet&display=swap");
+
+body {
+  background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+  vertical-align: middle;
+  font-family: "Port Lligat Slab", serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 20px;
+  width: 100px;
+  max-height: 80px;
+  object-fit: cover;
+  object-position: bottom center;
+}
+
+h1 {
+  color: white;
+  font-family: "Snippet", sans-serif;
+}
+
+.title {
+  margin-bottom: 2vh;
+  font-family: "Snippet", sans-serif;
+}
+
+.card {
+  margin: auto;
+  max-width: 950px;
+  width: 90%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  border: transparent;
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin: 3vh auto;
+  }
+}
+
+.cart {
+  background-color: #fff;
+  padding: 4vh 5vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+@media (max-width: 767px) {
+  .cart {
+    padding: 4vh;
+    border-bottom-left-radius: unset;
+    border-top-right-radius: 1rem;
+  }
+}
+
+.summary {
+  font-family: "Port Lligat Slab", serif;
+  background-color: rgb(236, 236, 236);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 4vh;
+  color: rgb(65, 65, 65);
+}
+
+@media (max-width: 767px) {
+  .summary {
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 1rem;
+  }
+}
+
+.summary .col-2 {
+  padding: 0;
+}
+
+.summary .col-10 {
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+.main {
+  margin: 0;
+  padding: 2vh 0;
+  width: 100%;
+}
+
+.col-2,
+.col {
+  padding: 0 1vh;
+}
+
+a {
+  padding: 0 1vh;
+}
+
+.close {
+  margin-left: auto;
+  font-size: 0.7rem;
+}
+
+form {
+  padding: 2vh 0;
+}
+
+select {
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 1.5vh 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+
+.btn {
+  background-color: #000;
+  border-color: #000;
+  color: white;
+  width: 100%;
+  font-size: 0.7rem;
+  margin-top: 4vh;
+  padding: 1vh;
+  border-radius: 0;
+}
+
+.btn:hover {
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+.fa-plus,
+.fa-minus {
+  color: rgb(88, 88, 88);
+}
+
+.fa-trash-alt {
+  color: #a34c4a;
+}
+
+.fa-plus:hover,
+.fa-trash-alt:hover,
+.fa-minus:hover {
+  color: #ffc107;
+}
+
+.Coffee {
+  color: #a3779a;
+  font-weight: bold;
+}
+
+.Snack {
+  color: #a0a37f;
+  font-weight: bold;
+}
+
+.Sweet {
+  color: #a38777;
+  font-weight: bold;
+}
+
+.num-items {
+  color: black;
+}
+.cart-item i {
+  font-size: 0.6rem;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+i {
+  font-size: 0.2;
+}
+
+.cart-items {
+  font-size: 16px;
+}
+
+button {
+  border: 2px solid black;
+}

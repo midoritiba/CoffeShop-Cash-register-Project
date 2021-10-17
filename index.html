@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop | Cash Register</title>
+    <!-- icon -->
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"/>
+</head>
+
+<body>
+    
+    <h1 class="display-5 text-center mt-5"> <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="48" width="48">
+        <g transform="matrix(3.4285714285714284,0,0,3.4285714285714284,0,0)"><g>
+            <path d="M3,5.5H8a1,1,0,0,1,1,1v5a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2v-5A1,1,0,0,1,3,5.5Z" style="fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round"></path>
+            <path d="M9,6.5h.5a2.5,2.5,0,0,1,0,5H9" style="fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round"></path>
+            <line x1="4" y1="0.5" x2="4" y2="2.5" style="fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round"></line>
+            <line x1="7" y1="0.5" x2="7" y2="2.5" style="fill: none;stroke: #ffffff;stroke-linecap: round;stroke-linejoin: round"></line>
+          </g></g></svg></span>Coffee Shop | Cash Register
+    </h1>
+
+    <p class="text-light text-center">Today is the <span id="date"></span>- <span id="time"></span></p>
+
+    <div class="card my-5">
+        <div class="row">
+            <div class="col-md-6 cart">
+                <div class="title">
+
+                    <div class="row">
+                        <div class="col">
+                            <h4 class="fw-bold">Choose Products</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="products row border-top border-bottom">
+                    
+                     <!-- PRODUCTS RENDER HERE -->
+                </div>
+
+            </div>
+
+            <!-- CHECK OUT SESSION -->
+            <div class="cart col-md-6 summary">
+                <div class="pb-5">
+                    <h5 class="fw-bold">Summary</h5>
+                </div>
+                <div class="cart-header row mb-2 fw-bold">
+                    <div class="col">ITEM</div>
+                    <div class="col">UNIT PRICE</div>
+                    <div class="col">UNITS</div>
+                </div>
+
+                <div class="cart-items row pb-5">
+                    <!-- CART ITEMS RENDER HERE -->
+
+                </div>
+                <div class="row pt-0" >
+                    <div class="col fw-italic">TOTAL ITEMS: </div>
+                    <div class="total-items col text-right"><!-- TOTAL ITEMS RENDER HERE --></div>
+                </div> 
+                <div class="row pt-0" >
+                    <div class="col fw-italic">SUBTOTAL: </div>
+                    <div class="subtotal col text-right"><!-- SUBTOTAL RENDER HERE --></div>
+                </div> 
+
+                <div class="row pt-0" >
+                    <div class="col fw-italic">TIP - 10%: </div>
+                    <div class="tip col text-right"><!-- TIPS RENDER HERE --></div>
+                </div> 
+
+                <div class="row pt-0" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                    <div class="col fw-bold">TOTAL PRICE: </div>
+                    <div class="total-price col text-right fw-bold"><!-- TOTAL PRICE RENDER HERE --></div>
+                </div> 
+
+                <div class="input-group row mb-2 mt-5">
+                    <input type="text" class="form-control ms-3 outline-none ps-1" id="cash-received" placeholder="Cash Received &euro; ">
+                    <button class="btn bg-warning text-light  col-2" id="confirm-cash"  type="button" onClick="change();">OK</button>
+                </div>
+                    
+                    <div class="change col fw-bold mb-5 ps-2">Change: &euro; </div>
+                    <a href="." class="btn bg-warning">REGISTER</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="./products.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
