@@ -17,4 +17,4 @@ In this project I tried to apply the following concepts:
 
 Our class had 4 days to develop this project. For this exercise I focused more on the Javascript part, as that was the main subject of this module. I tried to implement previous knowledge of HTML, CSS and Bootstrap. I realize that the css part needs improvement especially for readability and I believe there is some redundant coding as well (my intention is to get back to it :)).
 
-![alt text](https://github.com/midoritiba/coffeeShop-order-cash-register/blob/main/mockup/coffe_shop.png?raw=true)
+![alt text](https://github.com/midoritiba/CoffeShop-Cash-register-Project/blob/main/mockup/coffe_shop.png)
