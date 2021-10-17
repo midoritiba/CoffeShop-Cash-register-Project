@@ -2,7 +2,7 @@
 
 ## Final Project for Programming Basic's Module | WebDevelopment Course - DCI
 
-https://midoritiba.github.io/coffeeShop-order-cash-register/
+https://midoritiba.github.io/CoffeShop-Cash-register-Project/
 
 My idea for this project was to develop a simple responsive web application for employees of a small coffee shop to use it as an order/payment record.
 
