@@ -1,4 +1,4 @@
-# CoffeShop-Cash-register-Project
+# CoffeShop Cash Register Project
 
 ## Final Project for Programming Basic's Module | WebDevelopment Course - DCI
 
