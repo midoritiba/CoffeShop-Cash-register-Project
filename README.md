@@ -1,8 +1,8 @@
 # CoffeShop Cash Register Project
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7372c969-9146-441a-a89c-29dceca15d1f/deploy-status)](https://app.netlify.com/sites/change-tip-calculator/deploys)
 ## Final Project for Programming Basic's Module | WebDevelopment Course - DCI
 
-https://midoritiba.github.io/CoffeShop-Cash-register-Project/
+https://change-tip-calculator.netlify.app/
 
 My idea for this project was to develop a simple responsive web application for employees of a small coffee shop to use it as an order/payment record.
 
